@@ -7,7 +7,7 @@ User Story 1:  As a trickshotter, I want to pull off risky strategies so that I 
     - Requirement(s): The game rewards you for harder tricks
     - Purpose: This will incentivize players to go for more risky strategies
     - Test Case:
-        a) Feature: 
+        a) Feature: bonus points
         b) Test: do a 360 noscope
         c) Expected Result / Behavior: if the shot is successful, it will reward the player bonus points
         d) Automation Candidate: Yes, rule based
@@ -126,4 +126,5 @@ Boundary / Edge 3: Enemies
         a) Lower Boundary: 0
         b) Testing data used: <-1 enemies, 0 enemies>
         c) Expected Result / Behavior: enemy count returns to 0
+
         d) Automation Candidate: Yes, repetitive
